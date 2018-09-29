@@ -7,7 +7,7 @@ Minimal Tool to establish a bidirectional connection between two JS Apps.
 
 # Download
 
-Minimized Version [wire.min.js](dist/wire.min.md)
+Minimized Version [wire.min.js](/dist/wire.min.md)
 
 # Usage
 The Wire class exposes just three methods. You might register listeners for
