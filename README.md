@@ -85,6 +85,7 @@ Wire.broadcast(
     // do something with reponse data
   }
 )
+```
 
 ## License
 
