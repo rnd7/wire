@@ -5,14 +5,9 @@ Minimal Tool to establish a bidirectional connection between two JS Apps.
 * realize push/pull communication
 * implement 1:n notifications
 
-# Tech Stack
-ES6/ES2015, node.js, npm, socket.io, gulp, webpack and babel.
+# Download
 
-# install
-Install the dev environment using npm.
-```
-npm install
-```
+Minimized Version [wire.min.js](dist/wire.min.md)
 
 # Usage
 The Wire class exposes just three methods. You might register listeners for
@@ -85,6 +80,20 @@ Wire.broadcast(
     // do something with reponse data
   }
 )
+```
+
+# Tech Stack
+ES6/ES2015, node.js, npm, socket.io, gulp, webpack and babel.
+
+# Contributors
+Install the dev environment using npm.
+```
+npm install
+```
+
+Build using gulp via npm.
+```
+npm run build
 ```
 
 ## License
