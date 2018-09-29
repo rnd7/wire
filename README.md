@@ -14,16 +14,6 @@ Install the dev environment using npm.
 npm install
 ```
 
-# build and run
-Build client and server, run the dev server and watch for changes.
-```
-npm start
-```
-Open a browser and enter the dev server url
-```
-http://localhost:3000/
-```
-
 # Usage
 The Wire class exposes just three methods. You might register listeners for
 specified signals, send a request and wait for response or send requests to
@@ -95,3 +85,7 @@ Wire.broadcast(
     // do something with reponse data
   }
 )
+
+## License
+
+See the [LICENSE](LICENSE.md) file for software license rights and limitations (MIT).
